@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Admin" max_length="40" name="x_341214_student_a_admin" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="user type" mandatory="true" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="admin" sequence="0" value="admin"/>
+                <element inactive_on_update="false" label="user" sequence="1" value="user"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="password" mandatory="true" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="user id" mandatory="true" max_length="40" name="u_string_2" type="string"/>
+    </element>
+</database>
